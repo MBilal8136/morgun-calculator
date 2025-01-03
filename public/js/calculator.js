@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const calculateBtn = document.getElementById('mc-calculate-btn');
+    const calculateBtn = document.getElementById('mcp-calculate-btn');
     calculateBtn.addEventListener('click', function () {
         const propertyPrice = parseFloat(document.getElementById('propertyPrice').value);
         const downPayment = parseFloat(document.getElementById('downPayment').value);
@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
             (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
 
         document.getElementById('monthlyPayment').innerText = 
-            'Monthly Payment: ' + monthlyPayment.toFixed(2);
+            'Monthly Payment: ' + monthlyPayment.toFixed(2) + ' ' + document.getElementById('currencySymbol').value;
     });
 });

@@ -1,4 +1,4 @@
-.mc-calculator {
+.mcp-calculator {
     max-width: 100%;
     margin: 20px auto;
     padding: 15px;
@@ -7,23 +7,23 @@
     background-color: #f9f9f9;
 }
 
-.mc-calculator form {
+.mcp-calculator form {
     display: flex;
     flex-direction: column;
 }
 
-.mc-calculator label {
+.mcp-calculator label {
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.mc-calculator input {
+.mcp-calculator input {
     margin-bottom: 15px;
     padding: 8px;
     font-size: 14px;
 }
 
-.mc-calculator button {
+.mcp-calculator button {
     padding: 10px;
     background-color: #0073aa;
     color: #fff;
@@ -33,6 +33,6 @@
     border-radius: 5px;
 }
 
-.mc-calculator button:hover {
+.mcp-calculator button:hover {
     background-color: #005f7a;
 }
